@@ -1,0 +1,108 @@
+html {
+      scroll-behavior: smooth;
+}
+
+body{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container-fluid{
+  overflow: auto;
+}
+
+.row{
+  overflow: auto;
+
+}
+
+.centerRow{
+  text-align: center;
+}
+
+.firstRow{
+  overflow:auto;
+}
+
+.img-fluid{
+  padding-top: 40px;
+}
+
+.title {
+    position: relative;
+    font-family: BrandonGrotesque-Bold, Futura, Verdana, serif;
+    font-size: 76px;
+    text-transform: uppercase;
+    text-align: center;
+    height: 80px;
+    padding-top: 30px;
+}
+
+.title {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.subtitle {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+}
+
+.subtitle {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.content{
+  font-size: 20px;
+}
+
+footer{
+  text-align: center;
+}
+
+.hideAboutUs{
+  display: none;
+}
+
+.hideProduct{
+  display: none;
+}
+
+.hideAcquisition{
+  display: none;
+}
+
+.aboutLogo{
+  padding-top: 35px;
+}
+
+.img{
+  height: 45px;
+  width: 25px;
+}
+
+.jumbotron{
+  padding: 0px;
+  padding-top: 10px;
+  width: 500px;
+}
+
+.aboutDiv{
+  align-items: center;
+}
+
+.people{
+  filter: grayscale(1);
+}
+
+.people:hover{
+  filter: grayscale(0);
+}
